@@ -1,4 +1,4 @@
-package com.ritaja.xchangerate.api;
+package com.alura.java.coin.converter.api;
 
 /**
  * Created by rsengupta on 22/08/15.
