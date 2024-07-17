@@ -1,19 +1,19 @@
-package com.ritaja.xchangerate.endpoint;
+package com.alura.java.coin.converter.endpoint;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
+import com.alura.java.coin.converter.api.CurrencyNotSupportedException;
+import com.alura.java.coin.converter.caching.CachingXchangeRate;
+import com.alura.java.coin.converter.service.HttpMethods;
+import com.alura.java.coin.converter.util.Currency;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.ritaja.xchangerate.api.CurrencyNotSupportedException;
-import com.ritaja.xchangerate.caching.CachingXchangeRate;
-import com.ritaja.xchangerate.service.HttpMethods;
-import com.ritaja.xchangerate.service.HttpserviceImpl;
-import com.ritaja.xchangerate.service.ServiceException;
-import com.ritaja.xchangerate.storage.DiskStore;
-import com.ritaja.xchangerate.util.Currency;
+import com.alura.java.coin.converter.service.HttpserviceImpl;
+import com.alura.java.coin.converter.service.ServiceException;
+import com.alura.java.coin.converter.storage.DiskStore;
 
 /**
  * Created by rsengupta on 04/09/15.
