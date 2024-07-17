@@ -2,7 +2,6 @@ package com.alura.java.coin.converter.api;
 
 import com.alura.java.coin.converter.util.Strategy;
 import com.alura.java.coin.converter.endpoint.CurrencyLayerEndpoint;
-import com.alura.java.coin.converter.endpoint.YahooEndpoint;
 import com.alura.java.coin.converter.storage.DiskStore;
 import com.alura.java.coin.converter.storage.FileStore;
 
