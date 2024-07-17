@@ -1,13 +1,13 @@
-package com.ritaja.xchangerate.endpoint;
+package com.alura.java.coin.converter.endpoint;
 
 import java.math.BigDecimal;
 
+import com.alura.java.coin.converter.api.CurrencyNotSupportedException;
+import com.alura.java.coin.converter.util.Currency;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.ritaja.xchangerate.api.CurrencyNotSupportedException;
-import com.ritaja.xchangerate.service.ServiceException;
-import com.ritaja.xchangerate.util.Currency;
+import com.alura.java.coin.converter.service.ServiceException;
 
 /**
  * Created by rsengupta on 06/09/15.
