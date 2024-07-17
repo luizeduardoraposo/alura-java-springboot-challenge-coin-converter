@@ -1,17 +1,16 @@
-package com.ritaja.xchangerate.api;
+package com.alura.java.coin.converter.api;
 
 import java.math.BigDecimal;
 
+import com.alura.java.coin.converter.util.Currency;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.ritaja.xchangerate.endpoint.EndpointException;
-import com.ritaja.xchangerate.endpoint.EndpointFactory;
-import com.ritaja.xchangerate.service.ServiceException;
-import com.ritaja.xchangerate.storage.DiskStore;
-import com.ritaja.xchangerate.storage.StorageException;
-import com.ritaja.xchangerate.util.Currency;
-import com.ritaja.xchangerate.util.Strategy;
+import com.alura.java.coin.converter.endpoint.EndpointException;
+import com.alura.java.coin.converter.endpoint.EndpointFactory;
+import com.alura.java.coin.converter.service.ServiceException;
+import com.alura.java.coin.converter.storage.DiskStore;
+import com.alura.java.coin.converter.storage.StorageException;
 
 /**
  * Created by rsengupta on 04/09/15.x

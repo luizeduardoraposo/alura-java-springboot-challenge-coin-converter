@@ -1,10 +1,10 @@
-package com.ritaja.xchangerate.api;
+package com.alura.java.coin.converter.api;
 
-import com.ritaja.xchangerate.endpoint.CurrencyLayerEndpoint;
-import com.ritaja.xchangerate.endpoint.YahooEndpoint;
-import com.ritaja.xchangerate.storage.DiskStore;
-import com.ritaja.xchangerate.storage.FileStore;
-import com.ritaja.xchangerate.util.Strategy;
+import com.alura.java.coin.converter.util.Strategy;
+import com.alura.java.coin.converter.endpoint.CurrencyLayerEndpoint;
+import com.alura.java.coin.converter.endpoint.YahooEndpoint;
+import com.alura.java.coin.converter.storage.DiskStore;
+import com.alura.java.coin.converter.storage.FileStore;
 
 /**
  * Created by rsengupta on 06/09/15.
