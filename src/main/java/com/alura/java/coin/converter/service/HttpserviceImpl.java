@@ -1,4 +1,4 @@
-package com.ritaja.xchangerate.service;
+package com.alura.java.coin.converter.service;
 
 import java.io.IOException;
 
