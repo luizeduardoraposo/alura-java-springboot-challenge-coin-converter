@@ -1,4 +1,4 @@
-package com.ritaja.xchangerate.util;
+package com.alura.java.coin.converter.util;
 
 import java.util.HashMap;
 import java.util.Map;
