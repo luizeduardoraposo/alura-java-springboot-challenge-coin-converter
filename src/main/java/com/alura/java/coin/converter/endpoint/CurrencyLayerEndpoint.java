@@ -1,11 +1,11 @@
-package com.ritaja.xchangerate.endpoint;
+package com.alura.java.coin.converter.endpoint;
 
 import java.math.BigDecimal;
 
+import com.alura.java.coin.converter.util.Currency;
 import org.json.JSONException;
 
-import com.ritaja.xchangerate.storage.DiskStore;
-import com.ritaja.xchangerate.util.Currency;
+import com.alura.java.coin.converter.storage.DiskStore;
 
 /**
  * Created by rsengupta on 03/09/15.
