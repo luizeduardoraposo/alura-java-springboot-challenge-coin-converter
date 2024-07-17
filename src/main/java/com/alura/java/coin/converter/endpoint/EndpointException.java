@@ -1,4 +1,4 @@
-package com.ritaja.xchangerate.endpoint;
+package com.alura.java.coin.converter.endpoint;
 
 /**
  * Created by rsengupta on 03/09/15.
